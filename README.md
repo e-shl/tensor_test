@@ -15,4 +15,4 @@
 >  `$ pytest --alluredir=allure_results`
 >  `$ allure serve allure_results`
 > 
-![изображение](https://github.com/user-attachments/assets/8bef412c-e1e8-4198-92bf-ecd7262f3c96)
+![изображение](https://github.com/user-attachments/assets/9e0b6b58-7bc6-4c00-8324-5d3fb07e1e7e)
