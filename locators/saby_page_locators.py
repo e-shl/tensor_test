@@ -16,3 +16,5 @@ SELECT_KAMCHATSKIJ_KRAJ = (By.XPATH, '//*[contains(@class,"sbis_ru-Region-Panel_
 SELECT_RESPUBLIKA_BASHKORTOSTAN = (By.XPATH, '//*[contains(@class,"sbis_ru-Region-Panel__item")]//*[contains(text(),"Республика Башкортостан")]')
 # Республика Башкортостан в меню Выберите свой регион
 SELECT_HANTY_MANSIJSKIJ_AO = (By.XPATH, '//*[contains(@class,"sbis_ru-Region-Panel__item")]//*[contains(text(),"Ханты-Мансийский АО")]')
+# Первый город региона
+FIRST_CITY_REGION = (By.XPATH, '(//*[contains(@class,"sbisru-Contacts-List__city")])[1]')

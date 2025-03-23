@@ -43,7 +43,7 @@ class SabyPage(BasePage):
         return self.find_clickable_element(TEXT_REGION_CONTACT).text
 
     @allure.step('Открыть Выберите свой регион')
-    def click_region_name(self):
+    def click_change_region(self):
         self.find_clickable_element(TEXT_REGION_CONTACT).click()
         time.sleep(1)
 
@@ -55,3 +55,7 @@ class SabyPage(BasePage):
     @allure.step('Ищем все контакты')
     def find_all_contacts_items(self):
         return self.find_all_elements(CONTACT_ITEM)
+
+    @allure.step('Получить Первый город региона')
+    def get_first_city_region(self):
+        return self.find_clickable_element(FIRST_CITY_REGION).text
